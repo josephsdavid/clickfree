@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "clickfree"
+version = "0.1.0"
+description = ""
+authors = ["josephsdavid <josephsd@smu.edu>"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.7.6, <3.10"
+tqdm = "^4.62.3"
+rich = "^10.15.2"
+pydantic = "^1.8.2"
+clickupython = {git = "git@github.com:josephsdavid/clickfree.git", branch = "main"}
+
